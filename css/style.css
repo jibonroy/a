@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+/* ===============services============= */
+
+
+.services .column {
+    display: inline-block;
+    justify-content: space-around;
+    max-width: 400px;
+    padding: 0 20px;
+    margin: 20px auto;
+    transition: 0.3s;
+  }
+  .services .card{transition: 0.3s;border-radius: 10px;cursor: pointer; overflow: hidden; margin: auto;}
+
+
+.services{justify-items: space-around;margin: 10% auto;width: 100%;display: block;}
+
+.services .container{width: fit-content; margin: auto;}
+.services:after {content: "";display: table;clear: both;justify-content: space-between;}
+.services .card img{ overflow: hidden; width: 250px;object-fit: cover;border: 3px solid rgb(0, 212, 18);border-radius: 50%; transition: 0.8s;}
+.services .card h1{font-size: 2rem;color: rgb(0, 0, 0);transition: 0.3s;margin-bottom: 5%;}
+.services .card:hover{background-color: rgba(0, 212, 18);color: black !important;}
+.services .card:hover img{border-color: white !important; transform: scale(1.1); -webkit-transform: scale(1.1); border-radius: 10px;}
+.services .s-head{display: block;width: 100%;margin: auto;text-align: center;font-size: 5rem;margin-bottom: 5%;text-decoration: 5px underline rgb(0, 212, 18);}
+
+/* ================products================= */
+.products .column {
+  display: inline-block;
+  justify-content: space-around;
+  max-width: 300px;
+  padding: 0 20px;
+  margin: 20px auto;
+  transition: 0.3s;
+  }
+
+  .products{
+    justify-items: space-around;
+    margin: 10% auto;
+    width: 100%;display: block;
+    background-color: rgba(0, 212, 18, 0.438);
+    padding: 10% 0;
+}
+.container{width: fit-content; margin: auto; text-align: center; }
+  /* Clear floats after the columns */
+.products:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: space-between;
+  }
+
+  .products .card img{width: 200px;border: 3px solid rgb(0, 212, 18);border-radius: 10px;transition: 0.3s all ease-in-out;}
+  .products .card h1{font-size: 2rem;color: rgb(0, 0, 0);transition: 0.3s;margin-bottom: 5%;}
+  .products .card{transition: 0.3s;border-radius: 10px;cursor: pointer;overflow: hidden;}
+  .products .card:hover{color: black !important; }
+  .products .card:hover{transform: scale(1.1) !important;transition: 0.3s all linear;  -ms-transform: scale(1.1);-webkit-transform: scale(1.1);}
+  .products .card:hover img{border-color: rgb(0, 0, 0);}
+  .products .s-head{display: block;width: 100%;margin: auto;text-align: center;font-size: 5rem;margin-bottom: 5%;text-decoration: 5px underline rgb(0, 212, 18);}
+
+
+  /* ====================package ===================== */ 
+
+  .package{
+    justify-content: space-around;
+    margin: 10% auto 0 auto;
+    width: 100%;
+    display: block;
+    background-color: rgba(0, 212, 18, 0.438);
+    padding: 10% 0;
+}
+.package .column {
+  display: inline-block;
+  justify-content: space-around;
+  max-width: 400px;
+  padding: 0 20px;
+  margin: 20px auto;
+  transition: 0.3s;
+}
+
+  /* Clear floats after the columns */
+.package:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: space-between;
+  }
+
+  .package .card img{width: 250px;border: 3px solid rgb(0, 212, 18);border-radius: 10px;transition: 0.3s all ease-in-out;}
+  .package .card h1{font-size: 2rem;color: rgb(0, 0, 0);transition: 0.3s;margin-bottom: 5%;}
+  .package .card{transition: 0.3s;border-radius: 10px;cursor: pointer;overflow: hidden;}
+  .package .card:hover{color: black !important; }
+  .package .card:hover{transform: scale(1.1) !important;transition: 0.3s all linear;  -ms-transform: scale(1.1);-webkit-transform: scale(1.1);}
+  .package .card:hover img{border-color: rgb(0, 0, 0);}
+  .package .s-head{display: block;width: 100%;margin: auto;text-align: center;font-size: 5rem;margin-bottom: 5%;text-decoration: 5px underline rgb(0, 212, 18);}
+  
+/* ====================gardenor==================== */
+.gardenor{
+  display: inline-flex;
+  margin: auto;
+  border: 2px solid;
+  border-left: 0;
+  border-right: 0;
+}
+
+.gardenor .image{
+  display: inline-block;
+  margin: 5%;
+}
+
+.gardenor .image img{
+  max-width: 500px;
+}
+.gardenor .about{
+display: block;
+margin: 5% 5%;
+}
+
+.gardenor .about p{
+  margin: 5% 0;
+}
+
+/* =======================projects==================== */
+.porjects{
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  background-image: url('../img/bg-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10% 0;
+}
+.porjects .column {
+  display: inline-block;
+  justify-content: space-around;
+  width: 300px;
+  padding: 0 20px;
+  margin: 20px auto;
+  transition: 0.3s;
+}
+
+/* Clear floats after the columns */
+
+.porjects .card img{width: 100px;border: 3px solid rgb(0, 0, 0);border-radius: 10px;transition: 1s;}
+.porjects .card h1{font-size: 5rem;color: rgb(0, 212, 18);transition: 0.3s;margin-bottom: 5%;}
+.porjects .card{transition: 0.3s;cursor: pointer;overflow: hidden; background-color: white;}
+.porjects .card:hover img{border-color: rgb(0, 0, 0);  transform: rotate(360deg); background-color: rgb(0, 212, 18);}
+.porjects .s-head{display: block;width: 100%;margin: auto;text-align: center;font-size: 5rem;margin-bottom: 5%;text-decoration: 5px underline rgb(0, 212, 18);}
+
+/* ======================about our Team==================== */
+.About .column {
+  display: inline-block;
+  justify-content: space-around;
+  max-width: 300px;
+  padding: 0 20px;
+  margin: 20px auto;
+  transition: 0.3s;
+  }
+
+  .About{
+    justify-items: space-around;
+    margin:0 auto;
+    width: 100%;display: block;
+    background-color: rgba(0, 212, 18, 0.438);
+    padding: 10% 0;
+}
+.container{width: fit-content; margin: auto; text-align: center; }
+  /* Clear floats after the columns */
+.About:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: space-between;
+  }
+
+  .About .card img{width: 200px;border: 3px solid rgb(0, 212, 18);border-radius: 10px;transition: 0.3s all ease-in-out;}
+  .About .card h1{font-size: 2rem;color: rgb(0, 0, 0);transition: 0.3s;margin-bottom: 5%;}
+  .About .card{transition: 0.3s;border-radius: 10px;cursor: pointer;overflow: hidden;}
+  .About .card:hover{color: black !important; }
+  .About .card:hover{transform: scale(1.1) !important;transition: 0.3s all linear;  -ms-transform: scale(1.1);-webkit-transform: scale(1.1);}
+  .About .card:hover img{border-color: rgb(0, 0, 0);}
+  .About .s-head{display: block;width: 100%;margin: auto;text-align: center;font-size: 5rem;margin-bottom: 5%;text-decoration: 5px underline rgb(0, 212, 18);}
+
+  /* ============================== clients====================== */
+  .clients .column {
+    display: inline-block;
+    justify-content: space-around;
+    max-width: 400px;
+    padding: 0 20px;
+    margin: 20px auto;
+    transition: 0.3s;
+    }
+  
+    .clients{
+      justify-items: space-around;
+      margin:0 auto;
+      width: 100%;display: block;
+      background-color: black;
+      padding: 10% 0;
+  }
+  .container{width: fit-content; margin: auto; text-align: center; }
+    /* Clear floats after the columns */
+  .clients:after {
+      content: "";
+      display: table;
+      clear: both;
+      justify-content: space-between;
+    }
+  
+    .clients .card img{width: 200px;border: 3px solid rgb(0, 212, 18);border-radius: 50%;transition: 0.3s all ease-in-out;}
+    .clients .card h1{font-size: 2rem;color: rgb(0, 0, 0);transition: 0.3s;margin-bottom: 5%;}
+    .clients .card{transition: 0.3s;border-radius: 10px;cursor: pointer;overflow: hidden;}
+    .clients .card:hover{color: black !important; }
+    .clients .card:hover{transform: scale(1.1) !important;transition: 0.3s all linear;  -ms-transform: scale(1.1);-webkit-transform: scale(1.1);}
+    .clients .card:hover img{border-color: rgb(0, 0, 0);}
+    .clients .s-head{display: block;width: 100%;margin: auto;text-align: center;font-size: 5rem;margin-bottom: 5%;text-decoration: 5px underline rgb(0, 212, 18); color: rgb(255, 255, 255)}
+  
+
+
+
+
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .gardenor{
+      display: block;
+      text-align: center;
+      padding: 10%;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
